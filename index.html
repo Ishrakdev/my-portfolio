@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ishrak T. | 18-Year-Old Full-Stack Developer & Digital Strategist</title>
+  
+  <!-- SEO & Meta -->
+  <meta name="description" content="Portfolio of Ishrak T. — 18-Year-Old Full-Stack Developer & Digital Strategist. Engineering resilient distributed backends, custom database architectures, and cinematic digital platforms.">
+  <meta name="theme-color" content="#040B16">
+
+  <!-- Mandatory 'IT' Favicon: Circular SVG with Dominant Ocean Blue, Purple & Pink Gradient + Bold White 'IT' -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' width='64' height='64'%3E%3Cdefs%3E%3ClinearGradient id='itGrad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2300D2FF'/%3E%3Cstop offset='30%25' stop-color='%230284C7'/%3E%3Cstop offset='60%25' stop-color='%231E1B4B'/%3E%3Cstop offset='82%25' stop-color='%237C3AED'/%3E%3Cstop offset='100%25' stop-color='%23EC4899'/%3E%3C/linearGradient%3E%3CradialGradient id='itGlow' cx='42%25' cy='35%25' r='60%25'%3E%3Cstop offset='0%25' stop-color='%2338BDF8' stop-opacity='0.65'/%3E%3Cstop offset='45%25' stop-color='%230284C7' stop-opacity='0.4'/%3E%3Cstop offset='80%25' stop-color='%23A855F7' stop-opacity='0.3'/%3E%3Cstop offset='100%25' stop-color='%23EC4899' stop-opacity='0.2'/%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='32' cy='32' r='30' fill='url(%23itGrad)'/%3E%3Ccircle cx='32' cy='32' r='30' fill='url(%23itGlow)'/%3E%3Ccircle cx='32' cy='32' r='29' fill='none' stroke='rgba(255,255,255,0.4)' stroke-width='1.5'/%3E%3Ctext x='32' y='39.5' font-family='-apple-system,BlinkMacSystemFont,%22Segoe UI%22,Roboto,sans-serif' font-size='22' font-weight='900' fill='%23FFFFFF' text-anchor='middle' letter-spacing='0.8'%3EIT%3C/text%3E%3Ccircle cx='32' cy='11' r='1.5' fill='%23FFFFFF' opacity='0.85'/%3E%3C/svg%3E">
+  <link rel="alternate icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Google Fonts: Playfair Display (Serif) & Manrope (Sans-serif) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cinematic Background Layer: Deep Ocean Blue Atmosphere with Signature Glowing Auras -->
+  <div class="galaxy-atmosphere" aria-hidden="true">
+    <div class="galaxy-glow glow-purple-1"></div>
+    <div class="galaxy-glow glow-pink-1"></div>
+    <div class="galaxy-glow glow-ocean-1"></div>
+    <div class="galaxy-glow glow-purple-2"></div>
+    <div class="galaxy-stars-overlay"></div>
+  </div>
+
+  <!-- STICKY HEADER -->
+  <header id="site-header" class="site-header">
+    <div class="header-container">
+      <a href="#hero" class="brand-logo" aria-label="Ishrak T. Home">
+        <span class="logo-mark">I</span>
+        <span class="logo-text">Ishrak T.</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#work" class="nav-link">My Work</a></li>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Button -->
+      <div class="header-action">
+        <a href="#contact" class="btn-header-cta">
+          <span>Let's Talk</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </a>
+        
+        <!-- Mobile Menu Hamburger (3 Lines) -->
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-drawer">
+      <ul class="mobile-nav-list">
+        <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+        <li><a href="#work" class="mobile-nav-link">My Work</a></li>
+        <li><a href="#about" class="mobile-nav-link">About Me</a></li>
+        <li><a href="#services" class="mobile-nav-link">Services</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==============================================
+         SECTION 1: THE HERO (Landing Page)
+         Deep Ocean Blue (#020813 fading into #0A192F)
+         with Smooth Glowing Spotlight (PC: Mouse-following, Mobile: Continuous Breathing)
+         ============================================== -->
+    <section id="hero" class="hero-section">
+      
+      <!-- Interactive & Ambient Hero Background Layers -->
+      <div class="hero-bg-layer" aria-hidden="true">
+        <!-- Deep Ocean Gradient Base: #020813 fading into #0A192F -->
+        <div class="hero-gradient-base"></div>
+        
+        <!-- Large Soft Glowing Aurora Breathing in Background (Purple/Pink) -->
+        <div class="hero-aurora-glow"></div>
+
+        <!-- Completely Static Geometric Half-Circles (Ocean Blue / Purple / Pink) -->
+        <div class="hero-static-half-circles">
+          <div class="half-circle-arch arch-outer"></div>
+          <div class="half-circle-arch arch-mid"></div>
+          <div class="half-circle-arch arch-inner"></div>
+          <div class="half-circle-flank flank-left"></div>
+          <div class="half-circle-flank flank-right"></div>
+        </div>
+
+        <!-- Sharp Glass-Like 3D Star (Volumetric 3D Y-Axis Rotation in Space) -->
+        <div class="hero-sparkle-3d-wrapper" id="hero-sparkle-wrapper">
+          <div class="sparkle-3d-inner" id="sparkle-3d-inner">
+            <div class="sparkle-glow-aura"></div>
+            
+            <!-- 3D Plane 1: Primary Sharp Glass Star (0 deg) -->
+            <div class="sparkle-face sparkle-face-main">
+              <svg class="sparkle-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <!-- North Ray: Brilliant Diamond White to Dominant Ocean Blue with Purple Tip -->
+                  <linearGradient id="glassFacetN" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+                    <stop offset="30%" stop-color="#00E5FF" stop-opacity="0.9"/>
+                    <stop offset="70%" stop-color="#0284C7" stop-opacity="0.75"/>
+                    <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.55"/>
+                  </linearGradient>
+                  <!-- South Ray: Electric Cyan to Deep Ocean Blue with Purple/Pink Base -->
+                  <linearGradient id="glassFacetS" x1="100%" y1="100%" x2="0%" y2="0%">
+                    <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9"/>
+                    <stop offset="45%" stop-color="#0284C7" stop-opacity="0.8"/>
+                    <stop offset="80%" stop-color="#8B4BD2" stop-opacity="0.55"/>
+                    <stop offset="100%" stop-color="#EC4899" stop-opacity="0.4"/>
+                  </linearGradient>
+                  <!-- East Ray: Dominant Ocean Blue with Vibrant Purple & Pink Accent -->
+                  <linearGradient id="glassFacetE" x1="100%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.95"/>
+                    <stop offset="35%" stop-color="#0284C7" stop-opacity="0.8"/>
+                    <stop offset="70%" stop-color="#A855F7" stop-opacity="0.75"/>
+                    <stop offset="100%" stop-color="#EC4899" stop-opacity="0.65"/>
+                  </linearGradient>
+                  <!-- West Ray: Dominant Cyan-Blue with Vibrant Pink & Purple Accent -->
+                  <linearGradient id="glassFacetW" x1="0%" y1="100%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.95"/>
+                    <stop offset="35%" stop-color="#0284C7" stop-opacity="0.8"/>
+                    <stop offset="70%" stop-color="#EC4899" stop-opacity="0.75"/>
+                    <stop offset="100%" stop-color="#8B4BD2" stop-opacity="0.6"/>
+                  </linearGradient>
+                  <!-- Central Diamond Core: Specular White Center, Dominant Ocean Cyan, Radiant Purple & Pink Halo -->
+                  <radialGradient id="glassCore" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+                    <stop offset="35%" stop-color="#00E5FF" stop-opacity="0.95"/>
+                    <stop offset="60%" stop-color="#0284C7" stop-opacity="0.85"/>
+                    <stop offset="82%" stop-color="#A855F7" stop-opacity="0.65"/>
+                    <stop offset="100%" stop-color="#EC4899" stop-opacity="0.45"/>
+                  </radialGradient>
+                </defs>
+                <!-- 4 Diagonal Sharp Secondary Rays -->
+                <polygon points="100,100 112,88 144,56 124,90" fill="url(#glassFacetE)" stroke="rgba(255,255,255,0.5)" stroke-width="0.8"/>
+                <polygon points="100,100 88,88 56,56 90,76" fill="url(#glassFacetN)" stroke="rgba(255,255,255,0.5)" stroke-width="0.8"/>
+                <polygon points="100,100 112,112 144,144 124,110" fill="url(#glassFacetW)" stroke="rgba(255,255,255,0.5)" stroke-width="0.8"/>
+                <polygon points="100,100 88,112 56,144 90,124" fill="url(#glassFacetS)" stroke="rgba(255,255,255,0.5)" stroke-width="0.8"/>
+                <!-- 4 Long Razor-Sharp Primary Diamond Points (N, S, E, W) -->
+                <!-- North Razor Ray -->
+                <polygon points="100,4 86,82 100,100" fill="url(#glassFacetN)" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+                <polygon points="100,4 100,100 114,82" fill="url(#glassFacetS)" stroke="rgba(255,255,255,0.6)" stroke-width="0.9"/>
+                <!-- East Razor Ray -->
+                <polygon points="196,100 118,86 100,100" fill="url(#glassFacetE)" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+                <polygon points="196,100 100,100 118,114" fill="url(#glassFacetW)" stroke="rgba(255,255,255,0.6)" stroke-width="0.9"/>
+                <!-- South Razor Ray -->
+                <polygon points="100,196 114,118 100,100" fill="url(#glassFacetN)" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+                <polygon points="100,196 100,100 86,118" fill="url(#glassFacetS)" stroke="rgba(255,255,255,0.6)" stroke-width="0.9"/>
+                <!-- West Razor Ray -->
+                <polygon points="4,100 82,86 100,100" fill="url(#glassFacetE)" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+                <polygon points="4,100 100,100 82,114" fill="url(#glassFacetW)" stroke="rgba(255,255,255,0.6)" stroke-width="0.9"/>
+                <!-- Central Diamond Specular Core -->
+                <polygon points="100,74 126,100 100,126 74,100" fill="url(#glassCore)" stroke="rgba(255,255,255,0.9)" stroke-width="1.2"/>
+                <circle cx="100" cy="100" r="10" fill="#FFFFFF" opacity="0.95"/>
+                <circle cx="100" cy="100" r="5.5" fill="#00E5FF"/>
+                <circle cx="100" cy="100" r="2.2" fill="#EC4899"/>
+              </svg>
+            </div>
+
+            <!-- 3D Plane 2: Crossed Sharp Glass Star (90 deg around Y) -->
+            <div class="sparkle-face sparkle-face-cross">
+              <svg class="sparkle-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="100,100 112,88 144,56 124,90" fill="url(#glassFacetE)" stroke="rgba(255,255,255,0.4)" stroke-width="0.8"/>
+                <polygon points="100,100 88,88 56,56 90,76" fill="url(#glassFacetN)" stroke="rgba(255,255,255,0.4)" stroke-width="0.8"/>
+                <polygon points="100,100 112,112 144,144 124,110" fill="url(#glassFacetW)" stroke="rgba(255,255,255,0.4)" stroke-width="0.8"/>
+                <polygon points="100,100 88,112 56,144 90,124" fill="url(#glassFacetS)" stroke="rgba(255,255,255,0.4)" stroke-width="0.8"/>
+                <polygon points="100,4 86,82 100,100" fill="url(#glassFacetN)" stroke="rgba(255,255,255,0.6)" stroke-width="0.9"/>
+                <polygon points="100,4 100,100 114,82" fill="url(#glassFacetS)" stroke="rgba(255,255,255,0.5)" stroke-width="0.8"/>
+                <polygon points="196,100 118,86 100,100" fill="url(#glassFacetE)" stroke="rgba(255,255,255,0.6)" stroke-width="0.9"/>
+                <polygon points="196,100 100,100 118,114" fill="url(#glassFacetW)" stroke="rgba(255,255,255,0.5)" stroke-width="0.8"/>
+                <polygon points="100,196 114,118 100,100" fill="url(#glassFacetN)" stroke="rgba(255,255,255,0.6)" stroke-width="0.9"/>
+                <polygon points="100,196 100,100 86,118" fill="url(#glassFacetS)" stroke="rgba(255,255,255,0.5)" stroke-width="0.8"/>
+                <polygon points="4,100 82,86 100,100" fill="url(#glassFacetE)" stroke="rgba(255,255,255,0.6)" stroke-width="0.9"/>
+                <polygon points="4,100 100,100 82,114" fill="url(#glassFacetW)" stroke="rgba(255,255,255,0.5)" stroke-width="0.8"/>
+                <polygon points="100,74 126,100 100,126 74,100" fill="url(#glassCore)" stroke="rgba(255,255,255,0.8)" stroke-width="1"/>
+                <circle cx="100" cy="100" r="9" fill="#FFFFFF" opacity="0.9"/>
+                <circle cx="100" cy="100" r="5" fill="#00E5FF"/>
+                <circle cx="100" cy="100" r="2" fill="#EC4899"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- PC: Smooth Mouse-Following Glowing Spotlight (Purple/Pink) -->
+        <div class="hero-spotlight-interactive" id="hero-spotlight"></div>
+        
+        <!-- Mobile: Continuous Elegant Breathing Glow (Purple/Pink) -->
+        <div class="hero-spotlight-mobile"></div>
+        
+        <!-- Subtle SVG Noise / Film Grain Texture Overlay -->
+        <div class="hero-noise-overlay"></div>
+
+        <!-- Subtle Ambient Vignette & Text Readability Scrim -->
+        <div class="hero-readability-scrim"></div>
+      </div>
+
+      <!-- Centered Hero Content -->
+      <div class="hero-center-wrapper">
+        <div class="hero-center-content">
+          
+          <!-- Eyebrow Badge -->
+          <div class="hero-eyebrow hero-anim">
+            <span class="pulsing-brand-dot"></span>
+            <span class="eyebrow-text">Full-Stack Architect &amp; Digital Strategist</span>
+          </div>
+
+          <!-- Centered Huge Typography: 'Ishrak T.' -->
+          <h1 class="hero-title hero-anim">
+            <span class="title-main">Ishrak T.</span>
+          </h1>
+
+          <!-- Exact Subtitle: '18-Year-Old Full-Stack Developer & Digital Strategist.' -->
+          <p class="hero-subtitle hero-anim">
+            18-Year-Old Full-Stack Developer &amp; Digital Strategist.
+          </p>
+
+          <!-- Core Statement -->
+          <p class="hero-statement hero-anim">
+            Engineering robust backends, resilient distributed architectures, and cinematic digital interfaces with uncompromising aesthetic fidelity.
+          </p>
+
+          <!-- Actions -->
+          <div class="hero-actions hero-anim">
+            <a href="#work" class="btn btn-primary">
+              <span>Explore My Work</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#services" class="btn btn-secondary">
+              <span>What I Offer</span>
+            </a>
+          </div>
+
+          <!-- Hero Stats: Generously Spaced with Distinct Breathing Room -->
+          <div class="hero-stats hero-anim">
+            <div class="stat-item">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Production Deployments</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Custom Backend Logic</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number live-stat">
+                <span class="live-pulse-dot"></span>
+                Live
+              </span>
+              <span class="stat-label">Available for Hire</span>
+            </div>
+          </div>
+
+          <!-- Scroll-Down Indicator Centered with Breathing Room -->
+          <a href="#work" class="scroll-indicator hero-anim" aria-label="Scroll down to projects">
+            <span class="scroll-text">SCROLL</span>
+            <div class="scroll-mouse">
+              <div class="scroll-wheel"></div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 2: MY WORK (Real Images in Root Folder)
+         CSS Grid of 5 Cards with Hover Effect (Image Zoom + Glow)
+         ============================================== -->
+    <section id="work" class="work-section">
+      <div class="section-container">
+        
+        <div class="section-header work-header">
+          <div class="section-badge">
+            <span class="badge-dot"></span>
+            <span>PORTFOLIO</span>
+          </div>
+          <h2 class="section-title">Featured Creations</h2>
+          <p class="section-subtitle">
+            A curated showcase of production-ready full-stack applications, interactive environments, and high-performance digital platforms.
+          </p>
+        </div>
+
+        <!-- CSS Grid of 5 Cards -->
+        <div class="projects-grid">
+          
+          <!-- Card 1 (Large): RHT Store (Full-Stack E-Commerce) -->
+          <!-- Root image: src="rht.png" -->
+          <article class="project-card project-card-large theme-rht">
+            <div class="card-glow-bg" aria-hidden="true"></div>
+            <div class="card-inner">
+              <a href="https://rht-store-backend.vercel.app/frontend/index.html" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="project-image-link" 
+                 aria-label="View live project: RHT Store (Full-Stack E-Commerce)">
+                <div class="image-frame">
+                  <img src="rht.png" 
+                       alt="RHT Store Full-Stack E-Commerce Platform" 
+                       loading="lazy" 
+                       class="project-img">
+                  <div class="img-overlay"></div>
+                  <div class="card-badge-featured">Featured Full-Stack System</div>
+                  <div class="card-hover-indicator">
+                    <span>Explore Live Site</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </div>
+                </div>
+              </a>
+              
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="card-tag">Full-Stack Architecture</span>
+                  <span class="card-year">2026</span>
+                </div>
+                
+                <h3 class="card-title">
+                  <a href="https://rht-store-backend.vercel.app/frontend/index.html" target="_blank" rel="noopener noreferrer">
+                    RHT Store (Full-Stack E-Commerce)
+                  </a>
+                </h3>
+                
+                <p class="card-description">
+                  A complete full-stack e-commerce platform with a custom admin dashboard and secure authentication.
+                </p>
+
+                <!-- RHT Store Highlight Box: Centered, Bold Dark Purple, Glowing Purple Box -->
+                <div class="rht-admin-alert">
+                  <div class="rht-alert-inner">
+                    <span class="rht-alert-icon">⚡</span>
+                    <strong class="rht-alert-text">Click 'Live Demo', then log in with Email: visitor@gmail.com | Password: visit-it to view the Admin Dashboard.</strong>
+                  </div>
+                </div>
+
+                <div class="card-footer">
+                  <div class="tech-stack">
+                    <span class="tech-pill">Node / Express</span>
+                    <span class="tech-pill">Custom Auth</span>
+                    <span class="tech-pill">PostgreSQL</span>
+                    <span class="tech-pill">Admin Analytics</span>
+                  </div>
+                  <a href="https://rht-store-backend.vercel.app/frontend/index.html" target="_blank" rel="noopener noreferrer" class="link-arrow" aria-label="Open RHT Store live project">
+                    <span>Live Demo</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Serein (Dental Care) -->
+          <!-- Root image: src="sereine.png" (Note the extra 'e') -->
+          <article class="project-card theme-serein">
+            <div class="card-glow-bg" aria-hidden="true"></div>
+            <div class="card-inner">
+              <a href="https://serein-blond.vercel.app/" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="project-image-link" 
+                 aria-label="View live project: Serein (Dental Care)">
+                <div class="image-frame">
+                  <img src="sereine.png" 
+                       alt="Serein Luxury Dental Care Digital Experience" 
+                       loading="lazy" 
+                       class="project-img">
+                  <div class="img-overlay"></div>
+                  <div class="card-hover-indicator">
+                    <span>Explore Live Site</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </div>
+                </div>
+              </a>
+              
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="card-tag">Healthcare &amp; Luxury</span>
+                </div>
+                
+                <h3 class="card-title">
+                  <a href="https://serein-blond.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    Serein (Dental Care)
+                  </a>
+                </h3>
+                
+                <p class="card-description">
+                  A premium, scroll-driven frontend for a luxury dental clinic. Designed with immersive animations and elegant typography.
+                </p>
+
+                <div class="card-footer">
+                  <div class="tech-stack">
+                    <span class="tech-pill">Scroll Animations</span>
+                    <span class="tech-pill">Luxury UI</span>
+                  </div>
+                  <a href="https://serein-blond.vercel.app/" target="_blank" rel="noopener noreferrer" class="link-arrow" aria-label="Open Serein live project">
+                    <span>Live Demo</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: FORGE (Gym/Fitness) -->
+          <!-- Root image: src="forge.png" -->
+          <article class="project-card theme-forge">
+            <div class="card-glow-bg" aria-hidden="true"></div>
+            <div class="card-inner">
+              <a href="https://forge-gym-opal.vercel.app/index.html" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="project-image-link" 
+                 aria-label="View live project: FORGE (Gym/Fitness)">
+                <div class="image-frame">
+                  <img src="forge.png" 
+                       alt="FORGE Dark High-Energy Fitness Platform" 
+                       loading="lazy" 
+                       class="project-img">
+                  <div class="img-overlay"></div>
+                  <div class="card-hover-indicator">
+                    <span>Explore Live Site</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </div>
+                </div>
+              </a>
+              
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="card-tag">High-Performance Fitness</span>
+                </div>
+                
+                <h3 class="card-title">
+                  <a href="https://forge-gym-opal.vercel.app/index.html" target="_blank" rel="noopener noreferrer">
+                    FORGE (Gym/Fitness)
+                  </a>
+                </h3>
+                
+                <p class="card-description">
+                  A high-energy, dark-themed fitness platform built with dynamic GSAP animations and interactive class scheduling.
+                </p>
+
+                <div class="card-footer">
+                  <div class="tech-stack">
+                    <span class="tech-pill">GSAP Engine</span>
+                    <span class="tech-pill">Class Scheduling</span>
+                  </div>
+                  <a href="https://forge-gym-opal.vercel.app/index.html" target="_blank" rel="noopener noreferrer" class="link-arrow" aria-label="Open FORGE live project">
+                    <span>Live Demo</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Aurelia Homes (Real Estate) -->
+          <!-- Root image: src="aurelia.png" -->
+          <article class="project-card theme-aurelia">
+            <div class="card-glow-bg" aria-hidden="true"></div>
+            <div class="card-inner">
+              <a href="https://real-estate-a74h.vercel.app/" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="project-image-link" 
+                 aria-label="View live project: Aurelia Homes (Real Estate)">
+                <div class="image-frame">
+                  <img src="aurelia.png" 
+                       alt="Aurelia Homes Minimal Real Estate Architecture" 
+                       loading="lazy" 
+                       class="project-img">
+                  <div class="img-overlay"></div>
+                  <div class="card-hover-indicator">
+                    <span>Explore Live Site</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </div>
+                </div>
+              </a>
+              
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="card-tag">Architectural Real Estate</span>
+                </div>
+                
+                <h3 class="card-title">
+                  <a href="https://real-estate-a74h.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    Aurelia Homes (Real Estate)
+                  </a>
+                </h3>
+                
+                <p class="card-description">
+                  A sophisticated, minimal real estate showcase featuring a smart automated AI reservation assistant that syncs private viewing bookings directly to the admin dashboard.
+                </p>
+
+                <div class="card-footer">
+                  <div class="tech-stack">
+                    <span class="tech-pill">Visual Curation</span>
+                    <span class="tech-pill">Seamless UX</span>
+                  </div>
+                  <a href="https://real-estate-a74h.vercel.app/" target="_blank" rel="noopener noreferrer" class="link-arrow" aria-label="Open Aurelia Homes live project">
+                    <span>Live Demo</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: Grill It (Restaurant) -->
+          <!-- Root image: src="grill.png" -->
+          <article class="project-card theme-grill">
+            <div class="card-glow-bg" aria-hidden="true"></div>
+            <div class="card-inner">
+              <a href="https://grill-it-theta.vercel.app/" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="project-image-link" 
+                 aria-label="View live project: Grill It (Restaurant)">
+                <div class="image-frame">
+                  <img src="grill.png" 
+                       alt="Grill It Cinematic Restaurant Experience" 
+                       loading="lazy" 
+                       class="project-img">
+                  <div class="img-overlay"></div>
+                  <div class="card-hover-indicator">
+                    <span>Explore Live Site</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </div>
+                </div>
+              </a>
+              
+              <div class="card-content">
+                <div class="card-meta">
+                  <span class="card-tag">Gastronomy &amp; Media</span>
+                </div>
+                
+                <h3 class="card-title">
+                  <a href="https://grill-it-theta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    Grill It (Restaurant)
+                  </a>
+                </h3>
+                
+                <p class="card-description">
+                  A cinematic restaurant website featuring a video-driven hero section, interactive menus, and a high-end aesthetic.
+                </p>
+
+                <div class="card-footer">
+                  <div class="tech-stack">
+                    <span class="tech-pill">Video Integration</span>
+                    <span class="tech-pill">Interactive Menus</span>
+                  </div>
+                  <a href="https://grill-it-theta.vercel.app/" target="_blank" rel="noopener noreferrer" class="link-arrow" aria-label="Open Grill It live project">
+                    <span>Live Demo</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 3: ABOUT ME (Scroll-Driven Sticky Cards)
+         Glassmorphism Cards + 3D Interactive CSS Shield for Cybersecurity
+         ============================================== -->
+    <section id="about" class="about-section">
+      <div class="section-container">
+        
+        <div class="section-header about-header">
+          <div class="section-badge about-badge">
+            <span class="badge-dot badge-dot-gold"></span>
+            <span>MANIFESTO</span>
+          </div>
+          <h2 class="section-title">The Mindset <span class="gold-amp">&amp;</span> <span class="gold-text-highlight">The Craft</span></h2>
+          <p class="section-subtitle">
+            An uncompromising standard for backend reliability, engineering autonomy, and modern velocity.
+          </p>
+        </div>
+
+        <!-- Scroll-driven Sticky Cards Stack -->
+        <div class="sticky-cards-container">
+          
+          <!-- Card 1: The Truth -->
+          <div class="about-glass-card" id="about-card-1">
+            <div class="glass-reflection" aria-hidden="true"></div>
+            <div class="glass-card-header">
+              <div class="card-index-wrapper">
+                <span class="card-index">01</span>
+                <span class="card-category">Engineering Integrity</span>
+              </div>
+              <h3 class="glass-card-title">The Truth</h3>
+            </div>
+            <div class="glass-card-body">
+              <p class="glass-quote">
+                "I am a true Full-Stack Developer. I write my own secure backend logic, manage databases, and handle environment secrets myself. The core architecture and security are built entirely by me."
+              </p>
+            </div>
+            <div class="glass-card-footer">
+              <div class="pillar-tags">
+                <span class="pillar-tag">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                  Hardened Security
+                </span>
+                <span class="pillar-tag">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                  Database Engineering
+                </span>
+                <span class="pillar-tag">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                  Bespoke Backend Logic
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: The Tools -->
+          <div class="about-glass-card" id="about-card-2">
+            <div class="glass-reflection" aria-hidden="true"></div>
+            <div class="glass-card-header">
+              <div class="card-index-wrapper">
+                <span class="card-index">02</span>
+                <span class="card-category">Modern Velocity</span>
+              </div>
+              <h3 class="glass-card-title">The Tools</h3>
+            </div>
+            <div class="glass-card-body">
+              <p class="glass-quote">
+                "While I write all the backend code myself, I use AI as an efficient tool to accelerate frontend design and scroll-driven animations."
+              </p>
+            </div>
+            <div class="glass-card-footer">
+              <div class="pillar-tags">
+                <span class="pillar-tag">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                  10x Design Velocity
+                </span>
+                <span class="pillar-tag">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                  Scroll-Driven Micro-Interactions
+                </span>
+                <span class="pillar-tag">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                  GSAP &amp; WebGL Fluidity
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Status -->
+          <div class="about-glass-card" id="about-card-3">
+            <div class="glass-reflection" aria-hidden="true"></div>
+            <div class="glass-card-header">
+              <div class="card-index-wrapper">
+                <span class="card-index">03</span>
+                <span class="card-category">Availability</span>
+              </div>
+              <h3 class="glass-card-title">Status</h3>
+            </div>
+            <div class="glass-card-body status-body">
+              <div class="status-indicator-cluster">
+                <span class="status-radar-ring"></span>
+                <span class="status-core-dot"></span>
+              </div>
+              <p class="glass-quote status-quote">
+                "Currently open for new opportunities."
+              </p>
+            </div>
+            <div class="glass-card-footer">
+              <div class="pillar-tags">
+                <span class="pillar-tag available-tag">
+                  <span class="live-dot"></span>
+                  Active for Contract &amp; Full-Time
+                </span>
+                <span class="pillar-tag">
+                  Worldwide Remote / Hybrid
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Interactive 3D CSS Shield: Cybersecurity Skill Expansion -->
+        <div class="cyber-expansion-wrapper">
+          <div class="cyber-expansion-tag" id="cyber-expansion-tag">
+            
+            <!-- 3D Interactive CSS Shield Render (Silver & Blue with Hover Tilt) -->
+            <div class="cyber-shield-3d-wrapper" aria-hidden="true">
+              <div class="cyber-shield-3d" id="cyber-shield-3d">
+                <div class="shield-face shield-base"></div>
+                <div class="shield-face shield-rim"></div>
+                <div class="shield-face shield-core">
+                  <div class="shield-crest-symbol">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                      <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="shield-glow-aura"></div>
+              </div>
+            </div>
+
+            <div class="cyber-content-group">
+              <span class="cyber-status-pulse"></span>
+              <span class="cyber-text">Currently expanding my skills in Cybersecurity.</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 3B: WHAT I CAN DO FOR YOU (Capabilities Grid)
+         4 Glowing Cards with Beautiful 3D Glassmorphism Icons
+         ============================================== -->
+    <section id="services" class="services-section">
+      <div class="section-container">
+        
+        <div class="section-header services-header">
+          <div class="section-badge">
+            <span class="badge-dot"></span>
+            <span>CAPABILITIES</span>
+          </div>
+          <h2 class="section-title">What I Can Do For You</h2>
+          <p class="section-subtitle">
+            Comprehensive full-spectrum engineering and digital execution tailored for high-growth ventures and ambitious digital products.
+          </p>
+        </div>
+
+        <!-- 4 Glowing Services Cards with 3D Glassmorphism Icons -->
+        <div class="services-grid">
+          
+          <!-- Card 1: Full-Stack Development (3D Glassmorphic Database Cylinder) -->
+          <div class="service-card service-card-1">
+            <div class="service-card-glow" aria-hidden="true"></div>
+            
+            <!-- 3D Glass Database Cylinder Icon -->
+            <div class="icon-3d-container">
+              <div class="icon-3d-database" aria-label="3D Database Icon">
+                <div class="cylinder-disc cylinder-top">
+                  <div class="disc-surface"></div>
+                  <div class="disc-glow-ring"></div>
+                </div>
+                <div class="cylinder-disc cylinder-mid">
+                  <div class="disc-surface"></div>
+                  <div class="disc-glow-ring"></div>
+                </div>
+                <div class="cylinder-disc cylinder-bot">
+                  <div class="disc-surface"></div>
+                  <div class="disc-glow-ring"></div>
+                </div>
+                <div class="cylinder-axis-light"></div>
+                <div class="cylinder-data-pulse"></div>
+              </div>
+            </div>
+
+            <h3 class="service-card-title">Full-Stack Development</h3>
+            <p class="service-card-desc">
+              Secure backends, APIs, databases.
+            </p>
+            <div class="service-tags">
+              <span class="service-pill">REST &amp; GraphQL</span>
+              <span class="service-pill">PostgreSQL / MongoDB</span>
+              <span class="service-pill">Security &amp; Auth</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Creative Frontend (3D Glassmorphic UI Panes & Code Canvas) -->
+          <div class="service-card service-card-2">
+            <div class="service-card-glow" aria-hidden="true"></div>
+            
+            <!-- 3D Glass Floating UI Panels Icon -->
+            <div class="icon-3d-container">
+              <div class="icon-3d-frontend" aria-label="3D Creative Frontend Icon">
+                <div class="glass-layer layer-back"></div>
+                <div class="glass-layer layer-mid"></div>
+                <div class="glass-layer layer-front">
+                  <span class="code-bracket">&lt;/&gt;</span>
+                </div>
+                <div class="frontend-glow-aura"></div>
+              </div>
+            </div>
+
+            <h3 class="service-card-title">Creative Frontend</h3>
+            <p class="service-card-desc">
+              Scroll-driven animations, GSAP, immersive UI.
+            </p>
+            <div class="service-tags">
+              <span class="service-pill">GSAP ScrollTrigger</span>
+              <span class="service-pill">Three.js / WebGL</span>
+              <span class="service-pill">Micro-Interactions</span>
+            </div>
+          </div>
+
+          <!-- Card 3: E-Commerce & Dashboards (3D Glassmorphic Isometric Dashboard / Store Metric Block) -->
+          <div class="service-card service-card-3">
+            <div class="service-card-glow" aria-hidden="true"></div>
+            
+            <!-- 3D Glass Dashboard / Store Console -->
+            <div class="icon-3d-container">
+              <div class="icon-3d-ecommerce" aria-label="3D E-Commerce Dashboard Icon">
+                <div class="dash-platform"></div>
+                <div class="dash-bar dash-bar-1"></div>
+                <div class="dash-bar dash-bar-2"></div>
+                <div class="dash-bar dash-bar-3"></div>
+                <div class="dash-floating-cart">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                  </svg>
+                </div>
+                <div class="dash-glow-beam"></div>
+              </div>
+            </div>
+
+            <h3 class="service-card-title">E-Commerce &amp; Dashboards</h3>
+            <p class="service-card-desc">
+              Complete store systems and admin panels.
+            </p>
+            <div class="service-tags">
+              <span class="service-pill">Custom Admin Portals</span>
+              <span class="service-pill">Real-Time Metrics</span>
+              <span class="service-pill">Secure Checkouts</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Digital Strategy & Ads (3D Glowing Growth Arrow / Dynamic Vector) -->
+          <div class="service-card service-card-4">
+            <div class="service-card-glow" aria-hidden="true"></div>
+            
+            <!-- 3D Glowing Arrow & Radar Wave Icon -->
+            <div class="icon-3d-container">
+              <div class="icon-3d-growth" aria-label="3D Glowing Growth Arrow Icon">
+                <div class="growth-radar radar-ring-1"></div>
+                <div class="growth-radar radar-ring-2"></div>
+                <div class="growth-arrow-body">
+                  <div class="arrow-3d-head">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </div>
+                  <div class="arrow-glow-trail"></div>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="service-card-title">Digital Strategy &amp; Ads</h3>
+            <p class="service-card-desc">
+              Running campaigns and marketing.
+            </p>
+            <div class="service-tags">
+              <span class="service-pill">Growth Architecture</span>
+              <span class="service-pill">Conversion Funnels</span>
+              <span class="service-pill">Targeted Campaigns</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 4: CONTACT
+         Exact text specification & glowing button
+         ============================================== -->
+    <section id="contact" class="contact-section">
+      <!-- High-Intensity Spotlight Glow in Signature Purple/Pink -->
+      <div class="contact-spotlight" aria-hidden="true"></div>
+      
+      <div class="contact-container">
+        
+        <div class="contact-header">
+          <div class="section-badge contact-badge">
+            <span class="badge-dot pulse-purple"></span>
+            <span>DIRECT INITIATION</span>
+          </div>
+
+          <!-- Exact Requested Heading & Description -->
+          <h2 class="contact-main-heading">
+            Let's build something amazing together.
+          </h2>
+
+          <p class="contact-description">
+            Whether you need a high-security backend architecture, an end-to-end full-stack web application, or a cinematic digital presence, my inbox is always open.
+          </p>
+        </div>
+
+        <!-- Glowing Email Button: mailto:innopathe@gmail.com -->
+        <div class="contact-cta-wrapper">
+          <a href="mailto:innopathe@gmail.com" class="massive-glowing-btn" aria-label="Send email to innopathe@gmail.com">
+            <div class="btn-glow-aura" aria-hidden="true"></div>
+            <div class="btn-inner-content">
+              <div class="btn-icon-box">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="btn-text-group">
+                <span class="btn-prompt">Send an Email</span>
+                <span class="btn-email-address">innopathe@gmail.com</span>
+              </div>
+              <div class="btn-arrow-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- GitHub & Social Presence -->
+        <div class="contact-sublinks">
+          <a href="https://github.com/Ishrakdev" target="_blank" rel="noopener noreferrer" class="github-pill" aria-label="Ishrak's GitHub Profile">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+            <span class="github-pill-text">https://github.com/Ishrakdev</span>
+            <span class="external-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==============================================
+       5. MASTER FOOTER
+       Background: #02050A | Based in Algeria
+       ============================================== -->
+  <footer class="master-footer">
+    <div class="footer-container">
+      
+      <!-- Left Column: Logo & Description -->
+      <div class="footer-col-brand">
+        <a href="#hero" class="brand-logo" aria-label="Ishrak T. Home">
+          <span class="logo-mark">I</span>
+          <span class="logo-text">Ishrak T.</span>
+        </a>
+        <p class="footer-bio">
+          18-Year-Old Full-Stack Developer &amp; Digital Strategist. Designing secure backend architectures and scroll-driven cinematic web experiences.
+        </p>
+      </div>
+
+      <!-- Center Column: Quick Links -->
+      <div class="footer-col-nav">
+        <h4 class="footer-column-heading">Navigation</h4>
+        <ul class="footer-nav-list">
+          <li><a href="#hero" class="footer-link">Home</a></li>
+          <li><a href="#work" class="footer-link">My Work</a></li>
+          <li><a href="#about" class="footer-link">About Me</a></li>
+          <li><a href="#services" class="footer-link">Services</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Right Column: Direct Connections & Location -->
+      <div class="footer-col-contact">
+        <h4 class="footer-column-heading">Connect</h4>
+        <div class="footer-contact-items">
+          <a href="mailto:innopathe@gmail.com" class="footer-contact-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>innopathe@gmail.com</span>
+          </a>
+          <a href="https://github.com/Ishrakdev" target="_blank" rel="noopener noreferrer" class="footer-contact-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+            <span>github.com/Ishrakdev</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Copyright Line & Location -->
+    <div class="footer-bottom-bar">
+      <div class="footer-bottom-container">
+        <p class="footer-copyright-text">
+          &copy; 2026 Ishrak T. All rights reserved.
+        </p>
+        <div class="footer-location-tag">
+          <span class="location-pulse-dot"></span>
+          <span>Based in Algeria</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- External Libraries (CDN) -->
+  <!-- GSAP Core & ScrollTrigger Plugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Custom Core Script -->
+  <script src="script.js"></script>
+</body>
+</html>

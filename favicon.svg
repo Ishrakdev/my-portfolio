@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Dominant Ocean Blue (#00D2FF / #0284C7), with Vibrant Purple (#7C3AED) & Pink (#EC4899) Accents -->
+    <linearGradient id="itGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF"/>
+      <stop offset="30%" stop-color="#0284C7"/>
+      <stop offset="60%" stop-color="#1E1B4B"/>
+      <stop offset="82%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <!-- Radiant Ocean Blue Glow Core with Purple/Pink Rim -->
+    <radialGradient id="itCoreGlow" cx="42%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="45%" stop-color="#0284C7" stop-opacity="0.4"/>
+      <stop offset="80%" stop-color="#A855F7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.2"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Circular Base with Gradient Background -->
+  <circle cx="32" cy="32" r="30" fill="url(#itGradient)"/>
+  
+  <!-- Subtle Inner Aura -->
+  <circle cx="32" cy="32" r="30" fill="url(#itCoreGlow)"/>
+  
+  <!-- Sleek Polished Glass Rim -->
+  <circle cx="32" cy="32" r="29" fill="none" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1.5"/>
+
+  <!-- Clean, Bold White Font: 'IT' (Ishrak T.) -->
+  <text x="32" y="39.5" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" 
+        font-size="22" 
+        font-weight="900" 
+        fill="#FFFFFF" 
+        text-anchor="middle" 
+        letter-spacing="0.8">IT</text>
+  
+  <!-- Subtle Micro Highlight Accent -->
+  <circle cx="32" cy="11" r="1.5" fill="#FFFFFF" opacity="0.85"/>
+</svg>
