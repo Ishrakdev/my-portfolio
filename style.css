@@ -2603,11 +2603,75 @@ section {
   gap: 0.75rem;
   font-size: 0.92rem;
   color: var(--text-secondary);
-  transition: color var(--transition-fast);
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.footer-contact-link i {
+  width: 18px;
+  font-size: 1.05rem;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .footer-contact-link:hover {
   color: var(--accent-pink-bright);
+  transform: translateX(3px);
+}
+
+/* ==========================================================================
+   PROMINENT FOOTER SLOGAN: 'BUILD IT'
+   Striking Signature Purple Glow & Typography
+   ========================================================================== */
+.footer-slogan-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 1rem auto 4.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+  overflow: visible;
+}
+
+.footer-slogan-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(650px, 90vw);
+  height: 180px;
+  background: radial-gradient(ellipse at center, rgba(168, 85, 247, 0.32) 0%, rgba(139, 75, 210, 0.16) 45%, transparent 75%);
+  filter: blur(55px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.footer-slogan {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-serif);
+  font-size: clamp(3.4rem, 11vw, 7.8rem);
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #F3E8FF 0%, #D8B4FE 22%, #A855F7 58%, #8B4BD2 85%, #6D28D9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 35px rgba(168, 85, 247, 0.5)) drop-shadow(0 0 65px rgba(139, 75, 210, 0.3));
+  line-height: 1;
+  margin: 0;
+  user-select: none;
+  transition: filter var(--transition-smooth), transform var(--transition-smooth);
+}
+
+.footer-slogan:hover {
+  filter: drop-shadow(0 0 50px rgba(192, 132, 252, 0.75)) drop-shadow(0 0 85px rgba(168, 85, 247, 0.5));
+  transform: scale(1.02);
 }
 
 /* Bottom Bar */
@@ -3006,6 +3070,17 @@ section {
   .footer-container {
     grid-template-columns: 1fr;
     gap: 2.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .footer-slogan-wrapper {
+    margin: 0.5rem auto 3.5rem;
+    padding: 1rem 0;
+  }
+
+  .footer-slogan {
+    font-size: clamp(2.6rem, 13vw, 4.5rem);
+    letter-spacing: 0.03em;
   }
 
   .footer-bottom-container {
